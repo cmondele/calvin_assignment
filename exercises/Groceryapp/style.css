@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+.sale{
+    font-size: 4px;
+}
+.card{
+    border-radius: 3%;
+    border : black solid 3px;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+}
+.price{
+    color: red;
+    font-size: 22px;
+
+}
+img{
+   /* border: black solid 3px;*/
+   width: 100%;
+   border-radius : 3%;
+}
+
+.card button{
+    border: none;
+    padding: 14px;
+    outline: 0;
+    color: white;
+    text-align: center;
+    background-color:black;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button :hover{
+    opacity: 0.8;
+}
+.add_button{
+    margin: 0;
+    background-color: black;
+}
+
+form{
+    position: relative;
+
+}
+.flex-container{
+    text-align: center;
+    
+}

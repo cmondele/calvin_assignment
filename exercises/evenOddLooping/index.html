@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Even / Odd / Looping in JavaScript</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #title{
+            color: red;
+        }
+        input{
+            width: 300px;
+            height: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="title">JavaScript Even Odd Looping</h2>
+    <h2 >Enter Number</h2>
+    <br>
+    <input  type="number"  id="evenOdd" onkeyup="isCheck()"><span id="showmsg"></span>
+    <script>
+        function isCheck(){
+            var num = document.getElementById('evenOdd').value;
+            if((num % 2 ) == 0){
+               document.getElementById('showmsg').innerHTML = "  Number " + num + " is an even number"
+            }
+            else{
+                document.getElementById('showmsg').innerHTML = "  No! Number " + num + " is not an Even number"
+            }
+            if(num === ""){
+                document.getElementById("showmsg").innerHTML = "";
+            }
+        }
+
+    </script>
+</body>
+</html>

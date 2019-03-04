@@ -1,0 +1,38 @@
+
+/* tags */
+p{
+
+    margin: 10px;
+}
+/* by id */
+#title{
+    color: darkgreen;
+    font-family: Georgia;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: darkgreen;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+img{
+    float: left;
+    margin-right: 18px;
+    margin-top: 0px;
+}
+#upperCase{
+    text-transform: uppercase;
+}
+ul{
+    margin-right: 475px;
+}
+
+
+
+

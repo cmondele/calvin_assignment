@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript">
+          $(window).on('scroll', function() {
+              if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+              }
+              else {
+                  $('nav').removeClass('black');
+              }
+          })
+    </script>
+    <title>Week One</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">Logo</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a class="active" href="#">Login</a></li>
+            </ul>
+        </nav>
+        <section class="sec1"></section>
+        <section class="content">
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Eveniet expedita ab 
+            dolores est. Laboriosam veritatis harum 
+            quaerat corporis voluptate, repellat sit 
+            mollitia aliquam cumque perferendis iusto 
+            expedita explicabo ut quam eligendi, fugit
+             debitis magni dolorem consequatur hic autem 
+             voluptatum fugiat.</p>
+        </section>
+        <section class="sec2"></section>
+                <section class="content2">
+            <p id="p2">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Eveniet expedita ab 
+            dolores est. Laboriosam veritatis harum 
+            quaerat corporis voluptate, repellat sit 
+             mollitia aliquam cumque perferendis iusto 
+             expedita explicabo ut quam eligendi, fugit
+            debitis magni dolorem consequatur hic autem 
+             voluptatum fugiat.</p>
+        </section>
+        <section class="sec3"></section>
+        <section class="content3"></section>
+        
+        <section class="sec4"></section>
+        <section class="content4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4504.384606698386!2d15.305693157684681!3d-4.329917899113408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a317b816515b9%3A0x7eeb5b3e73ad44aa!2sGombe%2C+Kinshasa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1551589842983" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+    </div>
+</body>
+</html>

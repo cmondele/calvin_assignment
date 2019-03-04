@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+
+   .wrapper{
+     display: grid;
+     grid-gap: 1rem;
+     grid-template-columns: repeat(4 1fr);
+     
+   }
+   .wrapper > div{
+     background: #EE2E84;
+     padding: 5rem; 
+     grid-template-columns: repeat(4, 1fr);
+
+   }
+   .wrapper > div:nth-child(odd){
+     background: #EE2E84;
+     grid-template-columns: repeat(4, 1fr);
+    
+
+   }
+   
+   #wrapper-2{
+    background: #F5C6D6;
+    display: grid;
+     grid-gap: 1rem;
+     grid-template-columns: repeat(4, 1fr);
+     
+   }
+   #items-pink{
+    grid-template-columns: repeat(4, 1fr);
+    background: #85CFD8,
+    
+
+   }
+
+
+  </style>
+    <title>CSS Grid</title>
+</head>
+<body>
+  <div class="wrapper">
+  <div id="items-light-pink"></div>
+    <div id="items-pink"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="wrapper-2"></div>
+</body>
+</html>
