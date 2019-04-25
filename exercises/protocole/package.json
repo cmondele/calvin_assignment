@@ -1,0 +1,16 @@
+{
+  "name": "protocole",
+  "version": "1.0.0",
+  "description": "App to connect local people to foreigners that visit their city",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4"
+  }
+}
