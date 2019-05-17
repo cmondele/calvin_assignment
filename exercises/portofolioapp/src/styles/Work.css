@@ -1,0 +1,55 @@
+.portfolio{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+div.gallery {
+  text-align: center;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+
+
+}
+
+div.gallery:hover {
+  border: 1px solid transparent;
+  /* padding: 1px; */
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer
+
+}
+
+.galleryList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px
+
+}
+.btn{
+  /* position: absolute; */
+  margin: center;
+  text-align: center
+}
+
+.gallery{
+  position: relative;
+
+}
+
+
+
+@media (max-width: 658px){
+
+.img{
+  width: 100%;
+}
+}
